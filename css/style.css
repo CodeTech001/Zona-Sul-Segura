@@ -194,8 +194,12 @@
 
 /*ATALHOS*/
   
+.container-atalhos {
+  width: 100%;
+}
+
 .atalhos {
-  font-size: 8px;
+  font-size: 11px;
   text-transform: uppercase;
   color: white;
 }
@@ -215,18 +219,20 @@
     vertical-align: top;
     box-sizing: border-box;
 }
+
 .atalhos li {
     border-top: 2px solid #4b4e52;
 }
+
 .atalhos li:nth-child(even) {
     border-right: 2px solid #5d6268;
 }
+
 .atalhos a{
     color: white;
     text-decoration: none;
     cursor: pointer;
 }
-
 
 .atalhos a:visited {
     color: white;
@@ -273,30 +279,198 @@
 .atalhos .item-delegacia_eletronica .icon { background-position: 8px -541px }
 .atalhos .item-delegacias_proximas .icon { background-position: 20px -250px }
 
-/*
-@media (min-width: 992px){
-  #atalhos.fixed {
-      height: 123px;
-  }
-  #atalhos.fixed > div {
-      position: fixed;
-      top: 56px;
-      width: 100%;
-      z-index: 999;
-      background: #FFF;
-  }
-  #atalhos.fixed .atalhos li {
-      height: 70px;
-      padding: 10px;
-  }
-  #atalhos.fixed .atalhos .icon {
-      width: 46px;
-      height: 26px;
-  }
-  #atalhos.fixed .atalhos .item-webdenuncia .icon { background-position: 0 -316px }
-  #atalhos.fixed .atalhos .item-bo .icon { background-position: 6px -361px }
-  #atalhos.fixed .atalhos .item-barulho .icon { background-position: 14px -406px }
-  #atalhos.fixed .atalhos .item-delegacia_eletronica .icon { background-position: 8px -452px }
-  #atalhos.fixed .atalhos .item-delegacias_proximas .icon { background-position: 10px -498px }
+/*NOTÍCIAS*/
 
+.section--news {
+  padding-top: 15px;
+  background-color: #666;
+}
+
+.section {
+  padding: 30px 0;
+  display: block;
+}
+
+@media screen and (max-width: 991px) {
+  .section--news {
+    background: #ffffff;
+    padding: 0;
+  }
+}
+
+.container-news {
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: 576px) {
+  .container {
+    width: 540px;
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+.news-title {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #666;
+  
+}
+
+@media (min-width: 576px) {
+  .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.row-main-news{
+    display: flex;
+    align-items: stretch;
+    background-color: #666;
+}
+
+.row::before {
+  display: table;
+  content: " ";
+}
+
+.row::after {
+  display: block;
+  content: " ";
+  clear: both;
+}
+
+.col-12 {
+  float: left;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
+  min-height: 1px;
+}
+
+.col, .col-md-6 {
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
+  min-height: 1px;
+}
+
+.main-news__border {
+  display: block;
+  height: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  background: transparent;
+}
+
+.main-news__border:hover {
+  text-decoration: underline;
+}
+
+.main-news__border::selection {
+  background: #666;
+  text-shadow: none;
+  color: #fff;
+}
+
+.main-news figure {
+  display: block;
+  max-height: 100%;
+  max-width: 100%;
+  width: 595px;
+  height: 400px;
+}
+
+.card__figure {
+  position: relative;
+  overflow: hidden;
+}
+
+.card__figure:after {
+  content: " ";
+  margin-left: -1px;
+  display: block;
+  float: left;
+}
+
+.figure {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+
+.card__image {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.row-main-news 
+.card__content {
+  padding: 10px 0;
+}
+
+.row-main-news 
+.card__title {
+  font-weight: 600;
+}
+
+.row-main-news
+.card__excerpt {
+  font-weight: 600;
+}
+
+.card__excerpt {
+  margin: 0;
+}
+
+.aside-news {
+  padding: 0;
+  flex-wrap: wrap;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.aside-news figure {
+  display: block;
+  max-height: 100%;
+  max-width: 100%;
+  width: 608px;
+  height: 160px;
+}
+
+.col-6 {
+  float: left;
+  width: 50%;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
+  min-height: 1px;
 }
