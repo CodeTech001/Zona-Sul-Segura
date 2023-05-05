@@ -22,11 +22,16 @@
     scroll-behavior: smooth;
     background-color: white;
     color: white;
+    height: 100%;
+    min-height: 100%;
   }
   
   body {
     font-family: 'Nunito Sans', sans-serif;
     letter-spacing: 3px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
   }
   
   .fundo {
@@ -541,4 +546,11 @@ ul.atalhos {
     width: 50%;
     float: left;
   }
+}
+
+
+
+footer {
+  margin-top: auto;
+  color: #3e4144;
 }
