@@ -89,7 +89,7 @@
   .nav-container .logo a {
     text-decoration: none;
     transition: var(--transition-fast);
-    font-family: "Roboto", sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
   }
   
   .nav-container .links a {
