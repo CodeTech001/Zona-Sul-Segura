@@ -193,6 +193,7 @@
 .fade {
   animation-name: fade;
   animation-duration: 1s;
+  background-color: #3e4144;
 }
 
 @keyframes fade {
@@ -256,6 +257,10 @@ ul.atalhos {
 
 .atalhos a:visited {
     color: #39a9b0;
+}
+
+.atalhos a:hover {
+  color: #b03b34;
 }
 
 .atalhos .item-webdenuncia { width: 50%; }    
@@ -502,7 +507,7 @@ ul.atalhos {
     -webkit-transition: border-color .2s ease;
     transition: border-color .2s ease; }
   .main-news__border:hover {
-    border-color: #5B7EA6; }
+    border-color: #39a9b0; }
 }
 
 @media screen and (max-width: 991px) {
