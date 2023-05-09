@@ -61,3 +61,20 @@ body {
 
 #Formulario button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
 
+.obrigado {
+	background:#F9F9F9;
+	padding:25px;
+	margin:50px 0;
+	text-align: center;
+}
+
+.obrigado h1{
+	color: #b03b34;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+.obrigado a{
+	color: #b03b34;
+}
