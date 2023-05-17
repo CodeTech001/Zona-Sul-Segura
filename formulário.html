@@ -7,7 +7,7 @@
     <title>Formulário</title>
     
     <link rel="stylesheet" href="./css/styleform.css">
-    <script src="formulario.js"></script>
+    <script src="formulario.js" type="text/javascript"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -89,7 +89,7 @@
                 <br>
                 <input type="radio" name="pergunta3" value="Vila_Mariana"> Vila Mariana
                 <br><br><br><br>
-                <button name="submit" type="submit" id="submit" data-submit="...Sending">Enviar</button>
+                <button name="submit" onclick="redirecionarpagina(); contarRespostas();" type="submit" id="submit">Enviar</button>
             </form>
         </main>
     </div>
