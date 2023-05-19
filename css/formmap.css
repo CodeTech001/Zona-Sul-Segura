@@ -97,103 +97,6 @@ html {
 
 }
 
-ul.atalhos {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
-}
-
-.container-atalhos {
-  width: 100%;
-  align-self: center;
-  align-items: center;
-  align-content: center;
-  background-color: #3e4144;
-}
-
-.atalhos {
-  font-size: 11px;
-  text-transform: uppercase;
-  color: #39a9b0;
-  font-weight: bold;
-}
-
-.container-atalhos::after {
-  display: table;
-  content: " ";
-  clear: both;
-  box-sizing: border-box;
-}
-
-.atalhos li {
-    display: inline-block;
-    height: 123px;
-    text-align: center;
-    padding: 17px 70px;
-    vertical-align: top;
-    box-sizing: border-box;
-}
-
-.atalhos li {
-    border-top: 2px solid #5d6268;
-}
-
-.atalhos li:nth-child(even) {
-    border-right: 2px solid #5d6268;
-}
-
-.atalhos a{
-    color: #39a9b0;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.atalhos a:visited {
-    color: #39a9b0;
-}
-
-.atalhos a:hover {
-  color: #b03b34;
-}
-
-.atalhos .item-webdenuncia { width: 50%; }    
-.atalhos .item-bo { width: 50%; }    
-/*.atalhos .item-bo,*/
-
-.atalhos .item-barulho { width: 50%; }    
-.atalhos .item-delegacia_eletronica { width: 50%; }
-.atalhos .item-delegacias_proximas { width: 50%; }    
-
-
-@media (min-width: 768px){
-        
-  .atalhos li {
-      border-right: 2px solid #5d6268;
-      border-bottom: 2px solid #4b4e52;
-
-  }
-  .atalhos .item-webdenuncia { width: 25%; }
-  .atalhos .item-bo,
-  .atalhos .item-barulho,
-  /*.atalhos .item-bo,*/ 
-  .atalhos .item-delegacia_eletronica,
-  .atalhos .item-delegacias_proximas { width: 25%; }
-}
-
-.atalhos .icon {
-  display: block;
-  margin: 0 auto 10px;
-  width: 81px;
-  height: 48px;
-  color: white;
-  }
-
-.atalhos .item-webdenuncia .icon { background-position: 0 2px }
-.atalhos .item-bo .icon { background-position: 14px -56px }
-.atalhos .item-barulho .icon { background-position: 26px -124px }
-/*.atalhos .item-bo .icon { background-position: 16px -190px }*/
-.atalhos .item-delegacia_eletronica .icon { background-position: 8px -541px }
-.atalhos .item-delegacias_proximas .icon { background-position: 20px -250px }
 
 * {
   margin: 0;
@@ -205,7 +108,6 @@ ul.atalhos {
 
 body {
   background: #2d2c41;
-  font-family: 'Open Sans', Arial, Helvetica, Sans-serif, Verdana, Tahoma;
 }
 
 ul { list-style-type: none; }
@@ -214,11 +116,41 @@ a {
   color: #b63b4d;
   text-decoration: none;
 }
-
-.criminalidadecidades{
- margin: 10px;
+/* icones */
+.iconesperiodos {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: #29323c;
+  background-color: white;
+  padding-bottom: 30px;
 }
 
+
+.icon {
+  flex: 1;
+  text-align: center;
+  margin: 0 10px;
+}
+.criminalidadecidades{
+ padding: 10px;
+ background-color: white;
+ color: #3e4144;
+width: fit-content;
+}
+
+summary::-webkit-details-marker {
+  display: none
+}
+summary::before {
+  content: "+";
+  display: inline-block;
+  margin-right: 5px;
+}
+
+details[open] summary::before {
+  content: "-";
+}
 summary {
   cursor: pointer;
   font-weight: bold;
@@ -226,11 +158,11 @@ summary {
 
 details{
   margin-bottom: 10px;
-
+  list-style-type: none
 }
 
 details[open] summary {
-  color: blue;
+  color: #b63b4d;
 }
 
 details:not([open]) p {
@@ -239,17 +171,18 @@ details:not([open]) p {
 
 /* tabela */
 tr {
-  border: 1px solid #000;
+  border: 1px solid #3e4144;
 }
 
 td, th {
   padding: 0 10px;
   text-align: center;
-  border: 1px solid #000;
+  font-style: normal;
+  border: 1px solid #3e4144;
 }
 
 table {
-  border: 1px solid #000;
-
+  border: 1px solid #3e4144;
+  border-collapse: collapse;
   
 }
