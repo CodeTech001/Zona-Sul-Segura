@@ -119,7 +119,7 @@
 }
 
 .links {
-  margin-left: 60%;
+margin-left: 55%;
 }
 
 /*SLIDESHOW/CAROUSEL*/
@@ -478,9 +478,15 @@ ul.atalhos {
   }
 }
 
-
+/* FOOTER*/
 
 footer {
-  margin-top: auto;
-  color: #3e4144;
+  position:unset;
+  bottom: 0;
+  background-color: #3e4144;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 100px;
 }
