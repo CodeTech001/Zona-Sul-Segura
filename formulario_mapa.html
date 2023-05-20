@@ -43,35 +43,37 @@
         <div class="botao" onclick="redirecionarpagina()">
         <button>Clique aqui para preencher o formulário</button>
         </div>
-
     </div>
-    <div class="iconesperiodos">                            
+    <h3 style="background-color: white; color: black;padding: 10px;">Porcentagem de crimes por período</h3> 
+    <hr>
+    </div>
+    <div class="iconesperiodos">                           
         <div class="iconesperiodos">
             <div class="icon">
-                <i class="fa-light fa-sunrise"></i>
+                <i class="fa-solid fa-cloud-sun fa-3x" style="color:#39a9b0"></i>
                 <h4 class="indicador-title">Manhã</h4>
-                <h5>0%</h5>
+                <h5 class="porcentagem"y>0%</h5>
                 <h5 class="indicador-desc"><small>(06h01 – 12h00)</small></h5>
             </div>
             
             <div class="icon">
-                <i class="fa-sharp fa-solid fa-sunrise" style="color: #b63b4d;"></i>
+                <i class="fa-solid fa-sun fa-3x" style="color:#39a9b0"></i>
                 <h4 class="indicador-title">Tarde</h4>
-                <h5>0%</h5>
+                <h5 class="porcentagem">0%</h5>
                 <h5 class="indicador-desc"><small>(12h01 – 18h00)</small></h5>
             </div>
             
             <div class="icon">
-                <i class="fa-sharp fa-solid fa-sunrise" style="color: #b63b4d;"></i>
+                <i class="fa-solid fa-moon fa-3x" style="color:#39a9b0"></i>
                 <h4 class="indicador-title">Noite</h4>
-                <h5>0%</h5>
+                <h5 class="porcentagem">0%</h5>
                 <h5 class="indicador-desc"><small>(18h01 – 00h00)</small></h5>
             </div>
             
             <div class="icon">
-                <i class="fa-sharp fa-solid fa-sunrise" style="color: #b63b4d;"></i>
+                <i class="fa-solid fa-cloud-moon fa-3x" style="color:#39a9b0"></i>
                 <h4 class="indicador-title">Madrugada</h4>
-                <h5>0%</h5>
+                <h5 class="porcentagem">0%</h5>
                 <h5 class="indicador-desc"><small>(00h01 – 06h00) </small></h5>
             </div>
         </div>
@@ -1007,17 +1009,50 @@
         </details>
     </div>
     <div class="mapa">
-        <h3>Regiões mais perigosas</h3>
-        <hr>
-        <img>
+        <div class="mapaimagem">
+            <br>
+            <h3>Regiões mais perigosas</h3>
+            <hr>
+            <img src="imagens/mapa de criminalidade.png"
+            width="400px">
+        </div>
+        <div class="ranking">
+            <h3>Ranking dos Distritos mais perigosos por quantidade de crimes registrados no formulário</h3>
+            <hr>
+            <br>
+            <ol>
+                <li>Capão Redondo</li>
+                <li>Marsilac</li>
+                <li>Jardim Ângela</li>
+                <li>Parelheiros</li>
+                <li>Cidade Ademar</li>
+                <li>Sacomã</li>
+                <li>Campo Belo</li>
+                <li>Pedreira</li>
+                <li>Jardim São Luis</li>
+                <li>Grajaú</li>
+                <li>Cidade Dutra</li>
+                <li>Campo Limpo</li>
+                <li>Santo Amaro</li>
+                <li>Jabaquara</li>
+                <li>Vila Mariana</li>
+                <li>Ipiranga</li>
+                <li>Cursino</li>
+                <li>Campo Grande</li>
+                <li>Socorro</li>
+                <li>Vila Andrade</li>
+                <li>Moema</li>
+                <li>Saúde</li>
+            </ol>
+        </div>
     </div>
 </div>
-<script src="formulario_mapa.js"></script>
+<script src="javascript/formulario_mapa.js"></script>
 <script src="bootstrap/js/bootstrap.js"></script>
 </body>
 
 <footer class="fixar-rodape">
-    <p>&copy; 2023 Todos os direitor reservados</p>
+    <p>&copy; 2023 Todos os direitos reservados</p>
 </footer>
 
 </html>

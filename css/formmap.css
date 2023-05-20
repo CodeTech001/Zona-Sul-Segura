@@ -136,25 +136,41 @@ a {
   text-align: center;
   margin: 0 10px;
 }
+
+.icon h5.porcentagem{
+  color: #b63b4d;
+}
+
+.container-pagina{
+  overflow: auto;
+}
+
+/* crimes por região */
 .criminalidadecidades{
  padding: 10px;
  background-color: white;
  color: #3e4144;
-width: fit-content;
-display: inline-block;
+ float: left;
+ width: 50%;
+ box-sizing: border-box;
+margin-top: 0;
+}
+
+.criminalidadecidades h3{
+  color: #b63b4d;
 }
 
 summary::-webkit-details-marker {
   display: none
 }
 summary::before {
-  content: "+";
+  content: "+"; /* + antes de clicar */
   display: inline-block;
   margin-right: 5px;
 }
 
 details[open] summary::before {
-  content: "-";
+  content: "-"; /* - depois de clicar */
 }
 summary {
   cursor: pointer;
@@ -167,7 +183,7 @@ details{
 }
 
 details[open] summary {
-  color: #b63b4d;
+  color: #b63b4d; /* muda a cor do texto ao clicar */
 }
 
 details:not([open]) p {
@@ -191,6 +207,8 @@ table {
   border-collapse: collapse;
   
 }
+
+/* aviso do inicio da página */
 
 .aviso {
   background-color: #39a9b0;
@@ -230,10 +248,22 @@ button {
 	padding:10px;
 	font-size:15px;
 }
+
+/* aba do mapa */
 .mapa {
-  display: inline-block;
+  padding: 20px;
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
   background-color: white;
-  width: 650px
+}
+
+
+.ranking{
+    padding: 70px;
+  font-style: normal;
+  font-size: 18px;
+
 
 }
 
