@@ -127,6 +127,75 @@
 
 /*ATALHOS*/
 
+
+.container {
+  max-width: 2560px !important;
+  height: 110px;
+}
+
+.container-atalhos {
+  width: 100%;
+  align-self: center;
+  align-items: center;
+  align-content: center;
+  background-color: #3e4144;
+}
+
+
+.col a {
+  color: #39a9b0;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.col a:visited {
+  color: #39a9b0;
+}
+
+.col a:hover {
+  color: #b03b34;
+}
+
+.atalhos {
+  font-size: 0.6875rem;
+  text-transform: uppercase;
+  color: #39a9b0;
+  font-weight: bold;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.container-atalhos::after {
+  display: table;
+  content: " ";
+  clear: both;
+  box-sizing: border-box;
+}
+
+.col .icon {
+  display: block;
+  margin: 0 auto 10px;
+  width: 81px;
+  height: 48px;
+  color: white;
+}
+
+  @media (min-width: 768px) {
+    .body {
+      max-width: 768px;
+    }
+    .container {
+      max-width: 768px;
+    }
+  }
+
+/*
+.ol,
+ul {
+  padding-left: 0 !important;
+}
+
 ul.atalhos {
   display: flex;
   flex-wrap: nowrap;
@@ -190,6 +259,7 @@ ul.atalhos {
 .atalhos .item-bo { width: 50%; }    
 /*.atalhos .item-bo,*/
 
+/*
 .atalhos .item-barulho { width: 50%; }    
 .atalhos .item-delegacia_eletronica { width: 50%; }
 .atalhos .item-delegacias_proximas { width: 50%; }    
@@ -205,7 +275,7 @@ ul.atalhos {
   .atalhos .item-webdenuncia { width: 25%; }
   .atalhos .item-bo,
   .atalhos .item-barulho,
-  /*.atalhos .item-bo,*/ 
+  /*.atalhos .item-bo,*/ /*
   .atalhos .item-delegacia_eletronica,
   .atalhos .item-delegacias_proximas { width: 25%; }
 }
@@ -221,7 +291,7 @@ ul.atalhos {
 .atalhos .item-webdenuncia .icon { background-position: 0 2px }
 .atalhos .item-bo .icon { background-position: 14px -56px }
 .atalhos .item-barulho .icon { background-position: 26px -124px }
-/*.atalhos .item-bo .icon { background-position: 16px -190px }*/
+/*.atalhos .item-bo .icon { background-position: 16px -190px }*/ /*
 .atalhos .item-delegacia_eletronica .icon { background-position: 8px -541px }
 .atalhos .item-delegacias_proximas .icon { background-position: 20px -250px }
 
