@@ -215,6 +215,8 @@ form{
    width: 70%;
    text-align: justify;
   -webkit-column-count:2;
+  border: 3px solid;
+  border-color: #39a9b0;
  
 }
 .direita{
@@ -223,7 +225,14 @@ form{
 
 }
 
+.img{
+width: 100%; 
+border: 3px solid ;
+border-radius: 10px; 
+border-color: #39a9b0;
 
+
+}
 p {
     text-indent: 4em;
 
