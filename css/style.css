@@ -314,7 +314,7 @@ ul.atalhos {
   margin-right: auto;
   padding-right: 15px;
   padding-left: 15px;
-  font-size: 14px;
+  font-size: 15px;
   font-family: 'Nunito Sans', sans-serif;
   letter-spacing: 1px;
 }
@@ -336,7 +336,20 @@ ul.atalhos {
   margin-right: auto;
   margin-left: auto;
   color: #b03b34;
-  
+}
+
+.main-card__title {
+  font-size: 18px;
+}
+
+.main-subtitle {
+  color: #555;
+  font-size: 15px;
+}
+
+.subtitle {
+  color: #555;
+  font-size: 12px;
 }
 
 @media (min-width: 576px) {
