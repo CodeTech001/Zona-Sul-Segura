@@ -124,6 +124,7 @@ a {
   color: #29323c;
   background-color: white;
   padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 
@@ -137,6 +138,7 @@ a {
  background-color: white;
  color: #3e4144;
 width: fit-content;
+display: inline-block;
 }
 
 summary::-webkit-details-marker {
@@ -185,4 +187,49 @@ table {
   border: 1px solid #3e4144;
   border-collapse: collapse;
   
+}
+
+.aviso {
+  background-color: #39a9b0;
+  color: white;
+  padding: 20px;
+  display: flex;
+  height: 100px;
+}
+
+.aviso p{
+  margin: 0;
+}
+
+.icon{
+  flex: 0.4;
+  width: 100px;
+}
+
+.avisop{
+  flex: 2;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.botao{
+  flex: 1;
+}
+
+button {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background: white;
+	color:#39a9b0;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+.mapa {
+  display: inline-block;
+  background-color: white;
+  width: 650px
+
 }

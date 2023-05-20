@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mapa</title>
+    <link rel="stylesheet" href="./css/styleform.css">
+    <script src="https://kit.fontawesome.com/448406df21.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/formmap.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@500&display=swap" rel="stylesheet">
@@ -37,10 +38,21 @@
     </header>
 </div>
 <div class="container-pagina">
+    <div class="aviso">
+        <div class="icon">
+            <i class="fa-solid fa-user-shield fa-4x" style="color: #ffffff;"></i>        </div>
+        <div class="avisop">
+        <p>Contribua com o nosso site fornecendo informações de crimes que ocorreram nas regiões da zona sul de são paulo.</p>
+        </div>
+        <div class="botao" onclick="redirecionarpagina()">
+        <button>Clique aqui para preencher o formulário</button>
+        </div>
+
+    </div>
     <div class="iconesperiodos">                            
         <div class="iconesperiodos">
             <div class="icon">
-                <i class="fa-sharp fa-solid fa-sunrise" style="color: #b63b4d;"></i>
+                <i class="fa-light fa-sunrise"></i>
                 <h4 class="indicador-title">Manhã</h4>
                 <h5>0%</h5>
                 <h5 class="indicador-desc"><small>(06h01 – 12h00)</small></h5>
@@ -50,7 +62,7 @@
                 <i class="fa-sharp fa-solid fa-sunrise" style="color: #b63b4d;"></i>
                 <h4 class="indicador-title">Tarde</h4>
                 <h5>0%</h5>
-                <h5 class="indicador-desc"><small>(12h01 – 18h00))</small></h5>
+                <h5 class="indicador-desc"><small>(12h01 – 18h00)</small></h5>
             </div>
             
             <div class="icon">
@@ -998,10 +1010,17 @@
             </table>
         </details>
     </div>
+    <div class="mapa">
+        <h3>Regiões mais perigosas</h3>
+        <hr>
+        <img>
+    </div>
 </div>
-
+<script src="formulario_mapa.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+</body>
 <footer class="fixar-rodape">
-    <p>&copy; direitos reservados bla bla bla</p>
+    <p>&copy; 2023 Todos os direitor reservados</p>
     </footer>
 
 </html>
