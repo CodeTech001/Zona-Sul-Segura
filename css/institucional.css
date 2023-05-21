@@ -223,10 +223,7 @@ form{
    
     
   }
-  .colunas {
-    -webkit-column-count: 2.5;
-
-  }
+  
   
   .card {
     margin-top: 15px;
