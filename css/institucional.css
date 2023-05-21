@@ -217,12 +217,20 @@ form{
   .corpo{
     margin-right: auto;
     margin-top: 20px;
-    margin: 40px;
-    
-    
-   
-    
+    margin: 40px; 
   }
+
+  .corpo4{
+    margin: 40px;
+    text-align: justify;
+    padding: 20px 40px;
+    margin-top: 2px;
+    margin-block-end: 20px;
+    
+    
+
+  }
+
   
   
   .card {
@@ -286,7 +294,11 @@ text-align: center;
 
 }
   
- 
+ .h11 {
+  color: #39a9b0;
+
+
+ }
   
   
   footer {
@@ -298,4 +310,5 @@ text-align: center;
     text-align: center;
     font-size: 12px;
     line-height: 100px;
+    color: #f2f2f2;
   }
