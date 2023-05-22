@@ -175,6 +175,10 @@
   background-color: #3e4144;
 }
 
+.card__figure {
+  max-width: 100%;
+  max-height: 100%;
+}
 
 .col a {
   color: #39a9b0;
@@ -215,15 +219,22 @@
   color: white;
 }
 
-  @media (min-width: 768px) {
-    .body {
-      max-width: 768px;
-    }
-    .container {
-      max-width: 768px;
-    }
+@media screen and (max-width:600px) {
+  .atalhos {
+    font-size: 8px;
   }
+  .atalhos-col {
+    padding-left: 0;
+  }
+}
 
+@media screen and (max-width:600px){
+  .atalhos i {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
 
 /*
 .ol,
@@ -598,8 +609,16 @@ ul.atalhos {
   .main-card{
     width: 50%;
   }
+  .atalhos-col{
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+  .atalhos-icon {
+    margin: 0 !important;
+  }
   .card__image {
     width: 350px;
+    height: 400px;
   }
   .subtitle {
     opacity: 0;
@@ -608,6 +627,19 @@ ul.atalhos {
   .main-subtitle {
     opacity: 0;
     height: 0;
+  }
+  .main-row {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .row>* {
+    padding: 0 !important;
+  }
+  .news-columnL {
+    padding-left: 0;
+  }
+  .news-columnR {
+    padding-right: 0;
   }
 }
 
