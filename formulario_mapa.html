@@ -22,29 +22,64 @@
 </head>
 <body>
     <header>
-<!--NAVEGAÇÃO DO MENU-->
-<div class="fundo">
-        <section class="navigation">
-            <button onclick="goToTop()" id="back-to-top" title="Go to top"><i class="fa fa-toggle-up"></i></button>
-            <nav class="nav-container">
-              <div class="logo"> 
-                <a href="./index.html"><img src="./imagens/logo.png" alt="logo" width="80px" height="76px">
-                </a>
-              </div>
-
-<!--LINKS DO MENU-->              
-        <div class="links">
-            <a href="./institucional.html">INSTITUCIONAL</a>-
-            <a href="./formulario_mapa.html">MAPEAMENTO</a>              
+        <!--NAVEGAÇÃO DO MENU-->
+        <div class="fundo">
+          <section class="navigation">
+        
+        <!--MOBILE SCREEN-->  
+        <div class="navigation-mobile">      
+              <nav class="navbar navbar-dark" style="padding: 0px">
+                  <div class="container-fluid mobile">
+                    <a class="navbar-brand mobile" href="index.html"><img src="./imagens/logo.png" alt="logo" width="80px" height="76px"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                      <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Zona Sul Segura</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                      <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="institucional.html">Institucional</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="formulario_mapa.html">Mapeamento</a>
+                            </li>
+                          
+                        </ul>
+                        
+                      </div>
+                    </div>
+                  </div>
         </div>
-            </nav>
-        </section>
-    </header>
-</div>
+        <!--WIDE SCREEN-->
+                  <nav class="nav-container">
+                      <div class="logo desktop"> 
+                          <a href="./index.html"><img src="./imagens/logo.png" alt="logo" width="80px" height="76px"></a>
+                      </div>
+                      <!--LINKS DO MENU-->              
+                      <div class="links">
+                          <a href="./institucional.html">INSTITUCIONAL</a>-
+                          <a href="./formulario_mapa.html">MAPEAMENTO</a>           
+                      </div>
+                          </nav>
+                          </section>
+                          </header>
+                </nav>
+          </section>
+          </header>
+        </div>
+        
 <div class="container-pagina">
     <div class="aviso">
         <div class="icon">
-            <i class="fa-solid fa-user-shield fa-4x" style="color: #ffffff;"></i>        </div>
+            <i class="fa-solid fa-user-shield fa-4x" style="color: #ffffff;"></i>  
+         </div>
         <div class="avisop">
         <p>Contribua com o nosso site fornecendo informações de crimes que ocorreram nas regiões da zona sul de são paulo.</p>
         </div>
@@ -52,6 +87,7 @@
         <button>Clique aqui para preencher o formulário</button>
         </div>
     </div>
+    </div>    
     <h3 style="background-color: white; color: black;padding: 10px;">Porcentagem de crimes por período</h3> 
     <hr>
     </div>
@@ -1172,7 +1208,7 @@
                         <h3>Regiões mais perigosas</h3>
                         <hr>
                         <img src="imagens/mapa de criminalidade.png"
-                        width="450px">
+                        width="450px" class="img-fluid" alt="">
                     </div>
                     <div class="ranking">
                         <h3>Ranking dos Distritos mais perigosos por quantidade de crimes registrados no formulário</h3>
