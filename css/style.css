@@ -215,6 +215,14 @@
   color: white;
 }
 
+  @media (min-width: 768px) {
+    .body {
+      max-width: 768px;
+    }
+    .container {
+      max-width: 768px;
+    }
+  }
 
 
 /*
