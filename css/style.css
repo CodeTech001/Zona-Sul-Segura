@@ -16,6 +16,11 @@
     padding: 15px;
   }
 
+  img {
+    max-width: 100%;
+    display: block;
+  }
+
 
   /*NAV*/
 
@@ -149,7 +154,26 @@
 
 .container {
   max-width: 2560px !important;
-  height: 110px;
+  height: 100%;
+  padding-bottom: 3%;
+}
+
+@media (min-width:424px) and (max-width:725px) {
+  .container{
+    padding-bottom: 5%;
+  }
+}
+
+@media (min-width:375px) and (max-width:423px) {
+  .container{
+    padding-bottom: 7%;
+  }
+}
+
+@media (min-width:320px) and (max-width:374px) {
+  .container{
+    padding-bottom: 10%;
+  }
 }
 
 .container-atalhos {
@@ -199,132 +223,28 @@
 .col .icon {
   display: block;
   margin: 0 auto 10px;
-  width: 81px;
-  height: 48px;
+  width: 100%;
+  height: 78%;
   color: white;
 }
 
 @media screen and (max-width:600px) {
   .atalhos {
-    font-size: 8px;
+    font-size: 37%;
   }
   .atalhos-col {
-    padding-left: 0;
+    padding-left: 2%;
+    padding-right: 2%;
   }
 }
 
-@media screen and (max-width:600px){
+@media screen and (min-width:600px){
   .atalhos i {
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
   }
 }
-
-/*
-.ol,
-ul {
-  padding-left: 0 !important;
-}
-
-ul.atalhos {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
-}
-
-.container-atalhos {
-  width: 100%;
-  align-self: center;
-  align-items: center;
-  align-content: center;
-  background-color: #3e4144;
-}
-
-.atalhos {
-  font-size: 0.6875rem;
-  text-transform: uppercase;
-  color: #39a9b0;
-  font-weight: bold;
-}
-
-.container-atalhos::after {
-  display: table;
-  content: " ";
-  clear: both;
-  box-sizing: border-box;
-}
-
-.atalhos li {
-    display: inline-block;
-    height: 123px;
-    text-align: center;
-    padding: 17px 70px;
-    vertical-align: top;
-    box-sizing: border-box;
-}
-
-.atalhos li {
-    border-top: 2px solid #5d6268;
-}
-
-.atalhos li:nth-child(even) {
-    border-right: 2px solid #5d6268;
-}
-
-.atalhos a{
-    color: #39a9b0;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.atalhos a:visited {
-    color: #39a9b0;
-}
-
-.atalhos a:hover {
-  color: #b03b34;
-}
-
-.atalhos .item-webdenuncia { width: 50%; }    
-.atalhos .item-bo { width: 50%; }    
-/*.atalhos .item-bo,*/
-
-/*
-.atalhos .item-barulho { width: 50%; }    
-.atalhos .item-delegacia_eletronica { width: 50%; }
-.atalhos .item-delegacias_proximas { width: 50%; }    
-
-
-@media (min-width: 768px){
-        
-  .atalhos li {
-      border-right: 2px solid #5d6268;
-      border-bottom: 2px solid #4b4e52;
-
-  }
-  .atalhos .item-webdenuncia { width: 25%; }
-  .atalhos .item-bo,
-  .atalhos .item-barulho,
-  /*.atalhos .item-bo,*/ /*
-  .atalhos .item-delegacia_eletronica,
-  .atalhos .item-delegacias_proximas { width: 25%; }
-}
-
-.atalhos .icon {
-  display: block;
-  margin: 0 auto 10px;
-  width: 81px;
-  height: 48px;
-  color: white;
-  }
-
-.atalhos .item-webdenuncia .icon { background-position: 0 2px }
-.atalhos .item-bo .icon { background-position: 14px -56px }
-.atalhos .item-barulho .icon { background-position: 26px -124px }
-/*.atalhos .item-bo .icon { background-position: 16px -190px }*/ /*
-.atalhos .item-delegacia_eletronica .icon { background-position: 8px -541px }
-.atalhos .item-delegacias_proximas .icon { background-position: 20px -250px }
 
 /*NOTÍCIAS*/
 
@@ -635,7 +555,7 @@ footer {
   bottom: 0;
   background-color: #3e4144;
   width: 100%;
-  height: 100px;
+  height: 100%;
   text-align: center;
   font-size: 12px;
   line-height: 100px;
@@ -646,11 +566,34 @@ footer {
   background-color: #3e4144;
 }
 
+@media ()
+
+@media (min-width:425px) {
+  .hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  .hidden-lg {
+    display: none !important;
+  }
+}
+
 @media screen and (max-width:600px){
   .footer-bg {
-    font-size: 10px;
+    font-size: 85%;
     background-color: #3e4144;
-    height: 100px;
+    height: 100%;
     margin: 0;
     padding: 0;
   }
