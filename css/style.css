@@ -166,7 +166,7 @@
 
 @media (min-width:375px) and (max-width:423px) {
   .container{
-    padding-bottom: 7%;
+    padding-bottom: 9%;
   }
 }
 
@@ -566,7 +566,6 @@ footer {
   background-color: #3e4144;
 }
 
-@media ()
 
 @media (min-width:425px) {
   .hidden-xs {
