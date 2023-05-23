@@ -1,6 +1,6 @@
 
   function redirecionarpagina() {
-    // Obter os valores selecionados
+    // Checar se preencheram as perguntas
     var pergunta1 = document.querySelector('input[name="pergunta1"]:checked');
     var pergunta3 = document.querySelector('input[name="pergunta3"]:checked');
     
