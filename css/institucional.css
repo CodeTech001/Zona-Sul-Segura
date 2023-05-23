@@ -211,12 +211,10 @@ border-color: #39a9b0;
 }
 
 p {
-  text-indent: 4em;
   word-spacing: normal;
 }
 
 h1 {
-text-decoration:underline;
 text-align: center;
 
 }
@@ -255,4 +253,41 @@ text-align: center;
     margin: 0;
     padding: 0;
   }
+}
+
+.titulopagina{
+  margin-top: 10px;
+  padding: 30px;
+  text-decoration: none;
+}
+/* missão visão valores */
+
+.indicador-desc{
+  background-color: #3e4144;
+  color: #fff;
+  padding: 20px;
+  font-size: 17px;
+  text-align: center;
+  max-width: max-content;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.indicador-title{
+  background-color: #39a9b0;
+  color: #fff;
+  padding: 20px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.icon i{
+  padding: 20px;
+}
+
+.list-group{
+  background-color: #3e4144;
 }
