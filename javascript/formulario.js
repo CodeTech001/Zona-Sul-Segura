@@ -9,6 +9,6 @@
       // Envia formulário
       document.getElementById("Formulario").submit();
     } else {
-      alert('Por favor, preencha todas as respostas requeridas!');
+      alert('Por favor, preencha todas as respostas obrigatórias!');
     }
   }
