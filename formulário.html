@@ -15,13 +15,13 @@
 <body>
     <div class="container">
         <main>
-            <form name="Formulário" id="Formulario">
+            <form name="Formulário" id="Formulario" action="thankyou.html" method="post">
                 <h3>Formulário</h3>
                 <br>
                 <h4><strong>Atenção:</strong> Este formulário tem apenas como objetivo caráter informativo para a comunidade, para efetuar um boletim de ocorrência recorra à delegacia eletrônica.</h4>
                 <br><br>
                 <label for="pergunta1">Selecione a natureza do crime ocorrido (atenção este questionário não abrange todas as infrações da lei): </label>
-                <br><br>
+                <p style="color:#b03b34"><small>obrigatória</small></p>
                 <input type="radio" name="pergunta1" value="Estupro" required> Estupro
                 <br>
                 <input type="radio" name="pergunta1" value="Estupro_de_vulneravel"> Estupro de vulnerável 
@@ -33,9 +33,7 @@
                 <input type="radio" name="pergunta1" value="Roubo_Outros"> Roubo – Outros 
                 <br>
                 <input type="radio" name="pergunta1" value="Roubo_de_veiculo"> Roubo de veículo
-                <div class="invalid-feedback">
-                    Please choose a username.
-                </div>
+
                 <br><br><br><br>
                 <label for="pergunta2">Selecione o horário que ocorreu o crime: </label>
                 <br><br>
@@ -48,7 +46,8 @@
                 <input type="radio" name="pergunta2" value="Madrugada"> Madrugada (00h01 – 06h00) 
                 <br><br><br><br>
                 <label for="pergunta3">Selecione o distrito onde ocorreu o crime: </label>
-                <br><br>
+                <p style="color:#b03b34"><small>obrigatória</small></p>
+               
                 <input type="radio" name="pergunta3" value="Campo_Belo" required> Campo Belo 
                 <br>
                 <input type="radio" name="pergunta3" value="Campo_Limpo"> Campo Limpo
