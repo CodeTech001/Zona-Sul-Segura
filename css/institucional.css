@@ -146,59 +146,6 @@ form{
     --bs-offcanvas-width:350px;
   }
   
- 
-  .corpo1{
-    margin-top: 20px;
-    margin-left: auto;
-    text-align: justify;
-    margin: 40px;
-  }
-
-  .corpo{
-    margin-right: auto;
-    margin-top: 20px;
-    margin: 40px; 
-  }
-
-  .corpo4{
-    margin: 40px;
-    text-align: justify;
-    padding: 20px 40px;
-    margin-top: 2px;
-    margin-block-end: 20px;
-  }
-
-  
-  
-  .card {
-    margin-top: 15px;
-    width: 80%;
-    display: block;
-  }
-
-  .card-body {
-    text-align: left  ;
-  }
-
-  .card-text {
-    text-align: justify;
-  }
-  
-  .btn {
-    --bs-btn-bg: #39a9b0 !important;
-    --bs-btn-border-color: #39a9b0 !important;
-    --bs-btn-hover-bg: #b03b34 !important;
-    --bs-btn-hover-border-color: #b03b34 !important;
-    --bs-btn-focus-shadow-rgb: 49,132,253;
-    --bs-btn-active-color: #39a9b0 !important;
-    --bs-btn-active-bg: #39a9b0 !important;
-    --bs-btn-active-border-color: #0a53be !important;
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: #39a9b0 !important;
-    --bs-btn-disabled-bg: #39a9b0 !important;
-    --bs-btn-disabled-border-color: #39a9b0 !important;
-  }
-
 .direita{
     text-align: left;
 }
@@ -284,6 +231,7 @@ text-align: center;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
+
 .icon i{
   padding: 20px;
 }
@@ -312,8 +260,18 @@ mark {
   color: #b03b34;
 }
 
-.highlight {
-  color: #fff;
-  text-decoration: none;
-  background-color: #b03b34
+.titulostexto{
+  color: #b03b34;
+}
+
+.col-6{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.zonasulsegura{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
