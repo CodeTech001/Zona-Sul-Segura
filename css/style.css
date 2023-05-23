@@ -54,6 +54,21 @@
 }
 }
 
+.banner-mobile {
+  opacity: 0; /* Esconde no desktop. */
+  height: 0;
+}
+
+@media only screen and (max-width: 425px) {
+  .banner-mobile {
+      opacity: 1; /* Só aparece no mobile. */
+      height: auto;
+  }
+  .banner-desktop {
+    opacity: 0;
+    height: 0;
+  }
+}
 
 
   /*NAV*/
