@@ -291,3 +291,9 @@ text-align: center;
 .list-group{
   background-color: #3e4144;
 }
+
+/* textos */
+article{
+  font-family: 'Nunito Sans', sans-serif;
+
+}
