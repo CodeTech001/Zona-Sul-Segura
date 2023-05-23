@@ -41,6 +41,10 @@
   }
 }
 
+.button-menu {
+  width: auto;
+}
+
   .nav-container {
     margin: 0 auto;
     height: 100%;
@@ -348,7 +352,7 @@ footer {
   padding-top: 2%;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:768px){
   .footer-bg {
     font-size: 85%;
     background-color: #3e4144;
