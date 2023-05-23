@@ -160,13 +160,13 @@
 
 @media (min-width:424px) and (max-width:725px) {
   .container{
-    padding-bottom: 5%;
+    padding-bottom: 7%;
   }
 }
 
 @media (min-width:375px) and (max-width:423px) {
   .container{
-    padding-bottom: 9%;
+    padding-bottom: 8%;
   }
 }
 
