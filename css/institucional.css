@@ -304,3 +304,16 @@ article img{
   justify-content: center;
 }
 
+h3{
+  color: #b03b34;
+}
+
+mark {
+  color: #b03b34;
+}
+
+.highlight {
+  color: #fff;
+  text-decoration: none;
+  background-color: #b03b34
+}
