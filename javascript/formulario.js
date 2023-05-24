@@ -8,7 +8,14 @@
     if (pergunta1  && pergunta3) {
       // Envia formulário
       document.getElementById("Formulario").submit();
-    } else {
+    }
+    else {
       alert('Por favor, preencha todas as respostas obrigatórias!');
     }
+    else{
+      if(pergunta1  && pergunta3 && pergunta2){
+        document.getElementById("Formulario").submit(); 
+      }
+    }
+      
   }
