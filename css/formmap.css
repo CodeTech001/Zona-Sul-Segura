@@ -338,6 +338,10 @@ footer {
   text-align: center;
   font-size: 12px;
   line-height: 100px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> institucional.v02
   color: #fff;
 }
 
@@ -360,4 +364,20 @@ footer {
     padding-top: 2%;
     padding-bottom: 2%;
   }
+<<<<<<< HEAD
+=======
+}
+
+@media only screen and (max-width: 425px) {
+  .table table-success table-striped{
+    font-size: 10px;
+  }
+  .accordion-body {
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+>>>>>>> institucional.v02
 }

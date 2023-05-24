@@ -127,6 +127,7 @@ form{
       opacity: 1; /* Só aparece no mobile. */
       height: auto;
   }
+<<<<<<< HEAD
   .desktop {
     opacity: 0;
   }
@@ -146,6 +147,33 @@ form{
   --bs-offcanvas-width:350px;
 }
 
+=======
+  
+  @media only screen and (max-width: 425px) {
+    .mobile {
+        opacity: 1; /* Só aparece no mobile. */
+        height: auto;
+    }
+    .desktop {
+      opacity: 0;
+    }
+  }
+  
+  .navbar-nav {
+    --bs-nav-link-color: #3e4144 !important;
+    --bs-nav-link-hover-color: #3e4144 !important;
+    --bs-nav-link-disabled-color: #3e4144 !important;
+  }
+  
+  .navbar-dark {
+    --bs-navbar-active-color: #3e4144 !important;
+  }
+  
+  .offcanvas {
+    --bs-offcanvas-width:350px;
+  }
+  
+>>>>>>> institucional.v02
 .direita{
   text-align: left;
 }
@@ -158,7 +186,11 @@ border-color: #39a9b0;
 }
 
 p {
+<<<<<<< HEAD
 word-spacing: normal;
+=======
+  word-spacing: normal;
+>>>>>>> institucional.v02
 }
 
 h1 {
@@ -193,6 +225,7 @@ background-color: #3e4144;
 }
 
 @media screen and (max-width:600px){
+<<<<<<< HEAD
 .footer-bg {
   font-size: 10px;
   background-color: #3e4144;
@@ -206,10 +239,26 @@ background-color: #3e4144;
 margin-top: 10px;
 padding: 30px;
 text-decoration: none;
+=======
+  .footer-bg {
+    font-size: 10px;
+    background-color: #3e4144;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.titulopagina{
+  margin-top: 10px;
+  padding: 30px;
+  text-decoration: none;
+>>>>>>> institucional.v02
 }
 /* missão visão valores */
 
 .indicador-desc{
+<<<<<<< HEAD
 background-color: #3e4144;
 color: #fff;
 padding: 20px;
@@ -238,16 +287,52 @@ padding: 20px;
 
 .list-group{
 background-color: #3e4144;
+=======
+  background-color: #3e4144;
+  color: #fff;
+  padding: 20px;
+  font-size: 17px;
+  text-align: center;
+  max-width: max-content;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.indicador-title{
+  background-color: #39a9b0;
+  color: #fff;
+  padding: 20px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.icon i{
+  padding: 20px;
+}
+
+.list-group{
+  background-color: #3e4144;
+>>>>>>> institucional.v02
 }
 
 /* textos */
 article{
+<<<<<<< HEAD
 font-family: 'Nunito Sans', sans-serif;
 letter-spacing: 3px;
+=======
+  font-family: 'Nunito Sans', sans-serif;
+  letter-spacing: 3px;
+>>>>>>> institucional.v02
 
 }
 
 article img{
+<<<<<<< HEAD
 text-align: center;
 justify-content: center;
 }
@@ -274,4 +359,32 @@ align-items: center;
 text-align: center;
 justify-content: center;
 align-items: center;
+=======
+  text-align: center;
+  justify-content: center;
+}
+
+h3{
+  color: #b03b34;
+}
+
+mark {
+  color: #b03b34;
+}
+
+.titulostexto{
+  color: #b03b34;
+}
+
+.col-6{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.zonasulsegura{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+>>>>>>> institucional.v02
 }
