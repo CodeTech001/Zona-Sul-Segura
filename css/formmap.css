@@ -335,5 +335,40 @@ footer {
   text-align: center;
   font-size: 12px;
   line-height: 100px;
-  
+
+  color: #fff;
+}
+
+.footer-bg {
+  background-color: #3e4144;
+  height: 100%;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  color: #cacdd2;
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+
+@media screen and (max-width:768px){
+  .footer-bg {
+    font-size: 85%;
+    background-color: #3e4144;
+    height: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .table table-success table-striped{
+    font-size: 10px;
+  }
+  .accordion-body {
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
 }
