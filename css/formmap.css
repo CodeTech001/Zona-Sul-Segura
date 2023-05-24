@@ -373,3 +373,30 @@ footer {
     text-align: center;
   }
 }
+
+@media screen and (min-width:320px) and (max-width:374px) {
+  .tableh {
+    width: 5% !important;
+  }
+} 
+
+
+@media (max-width:725px) {
+  .table {
+    text-align: center;
+  }
+  .table-sm > :not(caption) > * > * {
+    padding: 0 0 !important;
+  }
+  .tableh {
+    width: 50%;
+  }
+}
+
+@media (max-width:375px){
+  .ranking {
+    padding: 0;
+    padding-top: 27px;
+    line-height: 1cm;
+  }
+}
