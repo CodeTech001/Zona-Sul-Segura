@@ -1,18 +1,4 @@
-form{
-  color: #29323c;
-}
-:root {
-    --title-span-color: #39a9b0;
-  
-    --font-medium: 1em;
-    --font-medium-large: 1.25em;
-    --font-large: 1.5rem;
-    --font-x-large: 2rem;
-    --font-2x-large: 3rem;
-    --font-3x-large: 3.5rem;
-  
-    --transition-fast: 0.2s;
-  }
+
 
   .logo {
     padding: 15px;
