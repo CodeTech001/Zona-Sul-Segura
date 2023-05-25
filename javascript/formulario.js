@@ -10,6 +10,7 @@
       window.location.href = "thankyou.html"
     }
     else {
+      // Valida se as resposta estão preenchidas
       alert('Por favor, preencha todas as respostas obrigatórias!');
     }
 
