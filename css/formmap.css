@@ -64,6 +64,10 @@
     gap: 15px;
     justify-content: center;
   }
+
+  .logo {
+    padding: 15px;
+  }
   
   .nav-container .logo {
     display: flex;

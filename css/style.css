@@ -228,17 +228,29 @@
   .container{
     padding-bottom: 5%;
   }
+  .atalhos {
+    font-size: 49% !important;
+    letter-spacing: 1px;
+  }
 }
 
 @media (min-width:375px) and (max-width:423px) {
   .container{
     padding-bottom: 8%;
   }
+  .atalhos {
+    font-size: 52% !important;
+    letter-spacing: 1px;
+  }
 }
 
 @media (min-width:320px) and (max-width:374px) {
   .container{
     padding-bottom: 10%;
+  }
+  .atalhos {
+    font-size: 50% !important;
+    letter-spacing: 1px;
   }
 }
 
@@ -295,12 +307,9 @@
 }
 
 @media screen and (max-width:767px) {
-  .atalhos {
-    font-size: 37%;
-  }
   .atalhos-col {
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 2% !important;
+    padding-right: 2% !important;
   }
 }
 
@@ -604,9 +613,7 @@
     padding-left: 0;
     padding-right: 0;
   }
-  .row>* {
-    padding: 0 !important;
-  }
+
   .news-columnL {
     padding-left: 0;
   }
